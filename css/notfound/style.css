@@ -33,7 +33,8 @@ section.not-found h1 {
 
 section.not-found h1 i.fas {
   font-size: 28px;
-  padding: 0 0 0 15px;
+  -webkit-transform: translate(80%, -10%);
+          transform: translate(80%, -10%);
 }
 
 section.not-found p {
