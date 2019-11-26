@@ -1,0 +1,110 @@
+@import url("../style.css");
+.hr {
+  width: 78vw;
+  border: 1px solid #e6e6e6;
+  margin: 30px 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 55vh;
+  background: url("../../img/bg.jpg") top/cover;
+}
+
+header h1, header p {
+  margin: 0;
+  color: #fff;
+  padding: 0;
+  line-height: 2.4rem;
+  text-shadow: 0 0 7px #000;
+}
+
+header h1 {
+  font-size: 42px;
+}
+
+header p {
+  font-size: 21px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 70vw;
+  margin: 2vh 0 0 0;
+}
+
+main article h1 {
+  font-size: 34px;
+  margin: 30px 0 10px 0;
+  letter-spacing: .5px;
+}
+
+main article p {
+  font-size: 23px;
+  margin: 10px 0 0 1.5rem;
+}
+
+@media screen and (max-width: 920px) {
+  header {
+    height: 75vh;
+    background-position: top;
+  }
+  article {
+    max-width: 70vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 70vh;
+  }
+  header h1 {
+    font-size: 46px;
+    margin: 0;
+  }
+  header p {
+    font-size: 22px;
+    margin: 5px 0 0 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

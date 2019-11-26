@@ -1,0 +1,35 @@
+@import url('../style.css');
+
+// 404 Page
+
+// Other
+.home-link{
+    color: #ff493d;
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 98vw;
+    height: 66.9vh;
+}
+
+// Section
+section.not-found{
+    text-align: center;
+    h1{
+        font-size: 40px;
+        margin: 0 0 15px 0;
+        i.fas{
+            font-size: 28px;
+            padding: 0 0 0 15px;
+        }
+    }
+    p{
+        font-size: 22px;
+        margin: 15px 0 0 0;
+    }
+}
