@@ -32,4 +32,4 @@ $(document).ready(function() {
     })
 })
 
-// Jezeli w mobile menu jest wysuniete, po kliknieciu na body schowaj
+// If menu (on mobile) is active, on click elsewhere than menu content, close menu
